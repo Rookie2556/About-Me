@@ -11,22 +11,22 @@
 
 <body>
 
-    <script> 
-        let name = prompt("What is your name? ");
-        console.log("User's name: " + name);
-        document.write("hey, " + name);
+    <script>
+        let name = prompt("What is your name?");
+        document.write("<span style='color:blue;'>Hello, " + name + "</span>");
     </script>
+
   
     <script> 
         let faveColor = prompt(name + ", What is your fave color? ");
         console.log("User's fave color: " + faveColor);
-        document.write("Wow, your fave color is " + faveColor + ", I'm calling you " + faveColor + name);
+        document.write("<span style='color: red;'>Wow, your fave color is " + faveColor + ", I'm calling you " + faveColor + name + "</span>");
     </script>  
     
     <script> 
         let age = prompt(faveColor + name + ", How old are you? ");
         console.log("User's age: " + age);
-        document.write("Wow you're this many " + age + " Years old? Marvelous!");
+        document.write("<span style='yellow;'>Wow you're this many " + age + " Years old? Marvelous!" + "</span>");
     </script>
     
     <script> 
