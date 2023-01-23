@@ -15,6 +15,8 @@
 
     <script>
         let name = prompt("What is your name?");
+        console.log("Name is: " + name);
+        alert("<span style='color:blue;'>Hello, " + name + "</span>");
         document.write("<span style='color:blue;'>Hello, " + name + "</span>");
     </script>
 
@@ -23,6 +25,7 @@
     <script> 
         let faveColor = prompt(name + ", What is your fave color? ");
         console.log("User's fave color: " + faveColor);
+        alert("<span style='color: red;'>Wow, your fave color is " + faveColor + ", I'm calling you " + faveColor + name + "</span>");
         document.write("<span style='color: red;'>Wow, your fave color is " + faveColor + ", I'm calling you " + faveColor + name + "</span>");
     </script>  
     
@@ -31,6 +34,7 @@
     <script> 
         let age = prompt(faveColor + name + ", How old are you? ");
         console.log("User's age: " + age);
+        alert("<span style='color: cyan;'>Wow you're this many " + age + " Years old? Marvelous!" + "</span>");
         document.write("<span style='color: cyan;'>Wow you're this many " + age + " Years old? Marvelous!" + "</span>");
     </script>
   
@@ -39,8 +43,12 @@
    <script> 
         let bird = prompt(faveColor + name + ", Are you the biggest bird? y or n");
         if (bird == "y") {
+            console.log("They think they're the biggest burd");
+            alert("<span style='color: brown;'>No, I'm the biggest bird</span>");
             document.write("<span style='color: brown;'>No, I'm the biggest bird</span>");
         } else {
+            console.log("Whoo they know who is boss, I'm the biggest bird");
+            alert("<span style='color: purple;'>yeah, because I'm the biggest bird </span>");
             document.write("<span style='color: purple;'>yeah, because I'm the biggest bird </span>");
         }
     </script>
