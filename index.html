@@ -19,6 +19,8 @@
          document.write("hey, " + name);
   </script>
   
+  console.log("name collected: " + name);
+  
     <p style="purple";>
         "What is your favourite colour? "
     </p>
@@ -26,6 +28,8 @@
   <script> let faveColor = prompt( name + ", What is your fave color? ");
        document.write("Wow, your fave color is " + faveColor + ", I'm calling you " faveColor + name);
   </script>  
+  
+  console.log("favourite colour is: " + faveColor);
     
     <p style="Yellow";>
         "How old are you? "
@@ -37,6 +41,8 @@
     let age = prompt(babyName + ", How old are you? ");
       document.write("Wow youre this many" + age + "Years old? Marvelous!");
   </script>
+  
+  console.log("Age is: " + age);
     
     <p style="Orange";>
         "Are you the bird? "
@@ -46,8 +52,10 @@
       let Bird = prompt(babyName + ", Are you the biggest bird? y or n");
         if (Bird = "y") {
           document.write("No, I'm the biggest bird");
+          console.log("User is wrong, I'm the biggest bird");
         else {
           document.write("yeah, because I'm the biggest bird ");
+          console.log("I'm the biggest bird smh.. Whoooo.")
         }
   </script>
     
