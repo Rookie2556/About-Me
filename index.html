@@ -6,7 +6,7 @@
     <meta name="viewport" content="Width=1280, initial-scale=1">
     <styles>
         <h1 style="color:red;"> Class 1 Lab </h1>
-    </styles>
+    </style>
 </head>
 
 <body>
@@ -23,24 +23,33 @@
         "What is your favourite colour? "
     </p>
   
-  <script> let faveColor = prompt("What is your fave color? ");
-       document.write("Wow, your fave color is " + faveColor);
+  <script> let faveColor = prompt( name + ", What is your fave color? ");
+       document.write("Wow, your fave color is " + faveColor + ", I'm calling you " faveColor + name);
   </script>  
     
     <p style="Yellow";>
         "How old are you? "
     </p>
+  
+  const babyName = faveColor + name;
 
   <script>
-    let age = prompt("How old are you? ");
-      document.write("Wow youre this many" + age + "Years old?");
+    let age = prompt(babyName + ", How old are you? ");
+      document.write("Wow youre this many" + age + "Years old? Marvelous!");
   </script>
     
     <p style="Orange";>
         "Are you the bird? "
     </p>
     
-    
+  <script>
+      let Bird = prompt(babyName + ", Are you the biggest bird? y or n");
+        if (Bird = "y") {
+          document.write("No, I'm the biggest bird");
+        else {
+          document.write("yeah, because I'm the biggest bird ");
+        }
+  </script>
     
 
 </body>
