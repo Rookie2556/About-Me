@@ -1,4 +1,4 @@
-<script>
+
         let name = prompt("What is my name? ").toLowerCase();
         if (name == "thomas") {
             console.log("They think my name is " + name + "They were right!");
@@ -9,11 +9,7 @@
             alert("You are wrong! ");
             document.write("You are wrong! ");
         }
-    </script>
-
-    <br>
   
-   <script>
         let colour = prompt("What is my favourite color? ").toLowerCase();
         if (colour == "green") {
             console.log("They think my favourite colour is " + colour + "They were right!");
@@ -24,11 +20,7 @@
             alert("You are wrong! ");
             document.write("You are wrong! ");
         }
-      </script>
   
-  <br> 
-  
-  <script>
         let location = prompt("Where do I live? ").toLowerCase();
         if (location == "liverpool") {
             console.log("They think live in " + location + "They were right!");
@@ -39,9 +31,6 @@
             alert("You are wrong! ");
             document.write("You are wrong! ");
         }
- 
-  
-  <br> 
  
        let disability = prompt("I have a disability what is it? ").toLowerCase();
     if (disability == "deaf") {
@@ -72,5 +61,4 @@
     alert("You are " + theyName + " Welcome to my website, I am Thomas and read on to find out more about me! ");
     }
     
-</script>
 
