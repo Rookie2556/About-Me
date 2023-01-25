@@ -43,7 +43,7 @@
   
   <br> 
  
-      let disability = prompt("I have a disability what is it? ").toLowerCase();
+       let disability = prompt("I have a disability what is it? ").toLowerCase();
     if (disability == "deaf") {
         console.log("They think my disability is " + disability + "They were right!");
         alert("You are correct!")
@@ -53,6 +53,8 @@
         alert("You are wrong! ");
         document.write("You are wrong! ");
     }
+}
+
 
     let faveGame = prompt("What is my favourite game? ").toLowerCase();
     if (faveGame == "rl") {
