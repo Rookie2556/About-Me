@@ -58,6 +58,6 @@
     let theyName = prompt("What is Your name? ");
     console.log("Their name is " + theyName);
     alert("You are " + theyName + " Welcome to my website, I am Thomas and read on to find out more about me! ");
-    }
+    
     
 
