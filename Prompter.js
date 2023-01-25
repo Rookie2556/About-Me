@@ -42,7 +42,6 @@
         alert("You are wrong! ");
         document.write("You are wrong! ");
     }
-}
 
 
     let faveGame = prompt("What is my favourite game? ").toLowerCase();
