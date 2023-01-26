@@ -1,11 +1,11 @@
-  let score = 0;  
+let score = 0;  
 
   let name = prompt("What is my name? ").toLowerCase();
     if (name == "thomas") {
         console.log("They think my name is " + name + "They were right!");
         alert("You are correct!")
         document.write("You are correct!");
-        score = score ++;
+        score ++;
     } else {
         console.log("They think my name is " + name + "They were Wrong!");
         alert("You are wrong! ");
@@ -17,7 +17,7 @@
         console.log("They think my favourite colour is " + colour + "They were right!");
         alert("You are correct!")
         document.write("You are correct!");
-        score = score ++;
+        score++;
     } else {
         console.log("They think my favourite color is " + colour + "They were Wrong!");
         alert("You are wrong! ");
@@ -29,7 +29,7 @@
         console.log("They think live in " + locationOfResidence + "They were right!");
         alert("You are correct!")
         document.write("You are correct!");
-        score = score ++;
+        score ++;
     } else {
         console.log("They think live in  " + locationOfResidence + "They were Wrong!");
         alert("You are wrong! ");
@@ -41,7 +41,7 @@ if (disability == "deaf") {
     console.log("They think my disability is " + disability + "They were right!");
     alert("You are correct!")
     document.write("You are correct!");
-    score = score ++;
+    score ++;
 } else {
     console.log("They think my disability is  " + disability + "They were Wrong!");
     alert("You are wrong! ");
@@ -54,7 +54,7 @@ if (disability == "deaf") {
         console.log("They think my favourite game is " + faveGame + "They were right!");
         alert("You are correct!")
         document.write("You are correct!");
-        score = score ++;
+        score ++;
     } else {
         console.log("They think my favourite game is  " + faveGame + "They were Wrong!");
         alert("You are wrong! ");
@@ -69,7 +69,7 @@ if (disability == "deaf") {
         userGuess = prompt("Guess a number between 1 and 10:");
         if(userGuess == correctAnswer) {
             alert("You guessed it! The correct answer was " + correctAnswer);
-            score = score ++;
+            score ++;
             break;
         } else if(userGuess < correctAnswer) {
             alert("Too low, try again!");
@@ -93,7 +93,7 @@ if (disability == "deaf") {
         guess = prompt("Guess a language I learnt through this course?").toLowerCase();
         if (possibleAnswers.includes(guess)) {
             alert("Congratulations! You guessed the correct answer.");
-            score = score ++;
+            score ++;
             break;
         } else {
             attemptsth--;
