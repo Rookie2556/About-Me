@@ -82,24 +82,24 @@ if (disability == "deaf") {
     }
 
     let possibleAnswers = ["html", "javascript", "css"];
-    let attempts = 6;
+    let attemptsth = 6;
     let guess;
     
     console.log("Possible answers: " + possibleAnswers);
 
-    while (attempts > 0) {
+    while (attemptsth > 0) {
         guess = prompt("Guess a language I learnt through this course?").toLowerCase();
         if (possibleAnswers.includes(guess)) {
             alert("Congratulations! You guessed the correct answer.");
             score = score ++;
             break;
         } else {
-            attempts--;
+            attemptsth--;
             alert("Incorrect. You have " + attempts + " attempts left. Please try again.");
         }
     }
 
-    if (attempts === 0) {
+    if (attemptsth === 0) {
         alert("Sorry, you have run out of attempts. The correct answers were: " + possibleAnswers);
     }
 
