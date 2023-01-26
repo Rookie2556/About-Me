@@ -95,7 +95,7 @@ if (disability == "deaf") {
             break;
         } else {
             attemptsth--;
-            alert("Incorrect. You have " + attempts + " attempts left. Please try again.");
+            alert("Incorrect. You have " + attemptsth + " attempts left. Please try again.");
         }
     }
 
