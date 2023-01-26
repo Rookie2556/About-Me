@@ -1,4 +1,6 @@
-    let name = prompt("What is my name? ").toLowerCase();
+  let score == 0;  
+
+  let name = prompt("What is my name? ").toLowerCase();
     if (name == "thomas") {
         console.log("They think my name is " + name + "They were right!");
         alert("You are correct!")
