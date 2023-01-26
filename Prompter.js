@@ -54,9 +54,24 @@ if (disability == "deaf") {
         document.write("You are wrong! ");
     }
 
-    let theyName = prompt("What is Your name? ");
-    console.log("Their name is " + theyName);
-    alert("You are " + theyName + " Welcome to my website, I am Thomas and read on to find out more about me! ");
-    
-    
+    let correctAnswer = 7;
+    let userGuess;
+    let attempts = 0;
+
+    while(attempts < 4) {
+        userGuess = prompt("Guess a number between 1 and 10:");
+        if(userGuess == correctAnswer) {
+            alert("You guessed it! The correct answer was " + correctAnswer);
+            break;
+        } else if(userGuess < correctAnswer) {
+            alert("Too low, try again!");
+        } else {
+            alert("Too high, try again!");
+        }
+        attempts++;
+    }
+
+    if(attempts === 4) {
+        alert("You have used up all your attempts. The correct answer was " + correctAnswer);
+    }
 
