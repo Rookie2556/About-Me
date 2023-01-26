@@ -1,4 +1,4 @@
-  let score == 0;  
+  let score = 0;  
 
   let name = prompt("What is my name? ").toLowerCase();
     if (name == "thomas") {
